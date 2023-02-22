@@ -10,5 +10,5 @@ jobs:
       uses: tibor19/static-website-deploy@v2
       with:
         enabled-static-website: 'true'
-        folder: .
+        folder: test_file.html
         connection-string: ${{ secrets.CONNECTION_STRING }}
